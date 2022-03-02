@@ -3,7 +3,7 @@
     link: /pricing/
   - name: Blog
     link: /blog/
-  - name: About
+  - name: Team
     link: /about/
   - name: Contact
     link: /contact/
@@ -21,19 +21,19 @@
     link: /
     new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
+  - name: CSUN Facebook
+    link: https://facebook.com/calstatenorthridge/
     new_window: true
     social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/cloudcannon/
+  - name: CSUN Twitter
+    link: https://twitter.com/gomatadors
     social_icon: Twitter
     new_window: true
   - name: YouTube
     link: https://youtube.com/cloudcannon/
     social_icon: YouTube
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
+  - name: Instagram
+    link: https://www.instagram.com/csun_edu/
+    social_icon: Instagram
     new_window: false
