@@ -21,19 +21,19 @@
     link: /
     new_window: true
 - links:
-  - name: CSUN Facebook
+  - name: Facebook
     link: https://facebook.com/calstatenorthridge/
     new_window: true
     social_icon: Facebook
-  - name: CSUN Twitter
+  - name: Twitter
     link: https://twitter.com/gomatadors
     social_icon: Twitter
     new_window: true
-  - name: CSUN Linkedin
+  - name: Linkedin
     link: https://www.linkedin.com/school/california-state-university-northridge/
     social_icon: Linkedin
     new_window: true
-  - name: CSUN Instagram
+  - name: Instagram
     link: https://www.instagram.com/csun_edu/
     social_icon: Instagram
     new_window: false
