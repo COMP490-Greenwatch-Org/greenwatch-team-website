@@ -2,11 +2,11 @@
   link: /about/
   new_window: false
   highlight: false
-- name: Pricing
+- name: Tech
   link: /pricing/
   new_window: false
   highlight: false
-- name: Blog
+- name: Skills
   link: /blog/
   new_window: false
   highlight: false
