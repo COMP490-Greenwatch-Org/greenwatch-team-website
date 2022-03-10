@@ -8,6 +8,9 @@
   - name: Contact
     link: /contact/
 - links:
+  - name: CSUN Senior Projects
+    link: https://www.csun.edu/~xjiang/SeniorDesign/
+- links:
   - name: Facebook
     link: https://facebook.com/calstatenorthridge/
     new_window: true
