@@ -34,6 +34,11 @@
 			flex: 1;
 		}
 
+		
+		
+		button:hover {
+			background-color: yellow;
+		}
 		.button {
   			padding:5px;
   			background-color: #dcdcdc;
@@ -43,6 +48,7 @@
 		}
 		
 
+		
 		li {
 			border-top-right-radius: 5px;
 			border-top-left-radius: 5px;
