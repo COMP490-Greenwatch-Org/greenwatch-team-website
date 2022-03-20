@@ -47,25 +47,3 @@
 		}
 	}
 }
-
-.faq {
-	@media #{$desktop} {
-		@include columns(2);
-	}
-	color: #666;
-	div {
-		break-inside: avoid;
-		padding: 25px 0;
-	}
-
-	dt {
-		font-weight: bold;
-		margin: 0 0 5px 0;
-	}
-
-	dd {
-		padding: 0;
-		margin: 0;
-
-	}
-}
