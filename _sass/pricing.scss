@@ -90,8 +90,11 @@
 	width: 100%;
 	height: 100%;
 	background: rgba(29, 116, 29, 0.6);
+	
+	/* text formating*/
 	color: #ffffff;
 	font-family: 'Quicksand', sans-serif;
+	text-shadow: 2px 2px 4px #000000;
 
 	display: flex;
 	flex-direction: column;
@@ -141,9 +144,6 @@ so, .image_title and .image_description*/
 /* _________styles the text description _____________ */
 .image_description {
 	/*1.25 times the current font size*/
-	font-size: 1.25 em;
-	color: white;
-  	text-shadow: 2px 2px 4px #000000;
-	
+	font-size: 1.25 em;	
 }
 
