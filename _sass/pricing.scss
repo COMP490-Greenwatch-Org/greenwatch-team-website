@@ -50,40 +50,106 @@
 	}
 }
 
+/* ____________ flexbox ___________________*/
 .flexbox-container { 
 	display: flex;
-	background-color: #FFC300; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	 
 }
 
 .flexbox-item {
-	width: 200px;
-	margin: 10px;
-	border: 3px solid #333;
-	background-color: #dfdfdf;
+	/*min-height: 100px;*/
+	margin: 20px;
+	
 }
 
-.flexbox-item-1 {
-	min-height: 100px;
+
+/* ___________ images ____________*/
+
+.image {
+	position: relative;
+	width: 400px
 }
 
-.flexbox-item-2 {
-	min-height: 100px;
+/*the style for the actual image*/
+.image_img {
+	display: block; 
+	width: 100%; /*to take up the max width of 400px of .image*/
 }
 
-.flexbox-item-3 {
-	min-height: 100px;
+/*Styles the text and blur over the image*/
+
+.image_overlay {
+	position: absolute; /*works with the position of .image*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(29, 116, 29, 0.6);
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+
+	/* _______ stuff for the actual transitions _________*/
+
+	/*originally 0 so it is hidden by default*/
+	opacity: 0;
+	/*opacity transitions at a slower speed*/
+	transition: opacity 0.25s;
 }
 
-.flexbox-item-4 {
-	min-height: 100px;
+/* _______ stuff for the text to come up _________*/
+/*Target every direct child of .image_overlay 
+so, .image_title and .image_description*/
+.image_overlay > * {
+	transform: translateY(20px);
+	transition: transform 0.25s;/*same time as the opacity*/
 }
 
-.flexbox-item-5 {
-	min-height: 100px;
+
+
+
+/* ___________ When the image gets hovered over __________*/
+.image_overlay:hover {
+	/*shows the overlay when hovering over*/
+	opacity: 1;
 }
 
-.flexbox-item-6 {
-	min-height: 100px;
+/*target the child elements .image_title and .image_description*/
+.image_overlay:hover > * {
+	/*allows it to start at the bottom*/
+	transform: translateY(0);
 }
 
+
+/* __________ blur effect ___________ */
+/*not supported on certain browsers*/
+.image_overlay--blur {
+	backdrop-filter: blur(5px);
+}
+
+
+
+
+/* _________ styles the title text _____________ */
+.image_title {
+	font-size: 2em; /*2 times the current font size*/
+	font-weight: bold;
+}
+
+/* _________styles the description _____________ */
+.image_description {
+	/*1.25 times the current font size*/
+	font-size: 1.25 em;
+
+	/*to decrease the distance between the title and the 
+	description*/
+	margin-top: 0.25em;
+}
 
