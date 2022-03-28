@@ -138,21 +138,12 @@ so, .image_title and .image_description*/
 }
 
 
-
-
-/* _________ styles the title text _____________ */
-.image_title {
-	font-size: 2em; /*2 times the current font size*/
-	font-weight: bold;
-}
-
-/* _________styles the description _____________ */
+/* _________styles the text description _____________ */
 .image_description {
 	/*1.25 times the current font size*/
 	font-size: 1.25 em;
-
-	/*to decrease the distance between the title and the 
-	description*/
-	margin-top: 0.25em;
+	color: white;
+  	text-shadow: 2px 2px 4px #000000;
+	
 }
 
