@@ -6,10 +6,6 @@
   link: /pricing/
   new_window: false
   highlight: false
-- name: Skills
-  link: /blog/
-  new_window: false
-  highlight: false
 - name: View our Project
   link: /
   new_window: true
