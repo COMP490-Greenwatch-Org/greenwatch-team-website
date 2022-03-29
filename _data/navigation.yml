@@ -6,7 +6,7 @@
   link: /pricing/
   new_window: false
   highlight: false
-- name: View our Project
-  link: /
+- name: Greenwatch Dashboard
+  link: http://greenwatch.eastus.cloudapp.azure.com/
   new_window: true
   highlight: true
