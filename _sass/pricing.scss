@@ -95,7 +95,9 @@
 	color: #white;
 	font-family: 'Quicksand', sans-serif;
 	
-
+	/*blur effect not supported on certain browsers*/
+	backdrop-filter: blur(5px);
+	
 	display: flex;
 	flex-direction: column;
 
@@ -133,12 +135,6 @@ so, .image_title and .image_description*/
 	transform: translateY(0);
 }
 
-
-/* __________ blur effect ___________ */
-/*not supported on certain browsers*/
-.image_overlay--blur {
-	backdrop-filter: blur(5px);
-}
 
 
 /* _________styles the text description _____________ */
